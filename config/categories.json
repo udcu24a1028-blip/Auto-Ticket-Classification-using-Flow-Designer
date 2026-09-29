@@ -1,0 +1,49 @@
+{
+  "fallback": {
+    "name": "general",
+    "category": "inquiry",
+    "subcategory": "",
+    "assignment_group": "Service Desk",
+    "urgency": 3,
+    "impact": 3,
+    "needs_review": true
+  },
+  "rules": [
+    {
+      "name": "wifi",
+      "category": "network",
+      "subcategory": "wireless",
+      "assignment_group": "Network Support",
+      "urgency": 2,
+      "impact": 2,
+      "keywords": ["wifi", "wi-fi", "wireless", "internet", "no connection", "network down", "can't connect", "cannot connect", "disconnecting"]
+    },
+    {
+      "name": "projector",
+      "category": "hardware",
+      "subcategory": "audio_visual",
+      "assignment_group": "AV Support",
+      "urgency": 2,
+      "impact": 2,
+      "keywords": ["projector", "smartboard", "smart board", "display", "hdmi", "screen not working", "no signal", "lamp"]
+    },
+    {
+      "name": "password",
+      "category": "inquiry",
+      "subcategory": "account_access",
+      "assignment_group": "Service Desk",
+      "urgency": 3,
+      "impact": 3,
+      "keywords": ["password", "forgot", "locked out", "account locked", "login", "log in", "reset", "cannot sign in", "can't sign in"]
+    },
+    {
+      "name": "slow_computer",
+      "category": "hardware",
+      "subcategory": "performance",
+      "assignment_group": "Desktop Support",
+      "urgency": 3,
+      "impact": 3,
+      "keywords": ["slow", "freezing", "frozen", "lagging", "laptop", "computer", "takes forever", "hangs", "crash"]
+    }
+  ]
+}

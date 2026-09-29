@@ -1,0 +1,10 @@
+node_modules/
+npm-debug.log*
+.env
+.DS_Store
+*.log
+coverage/
+.idea/
+.vscode/
+# Exported update sets containing instance-specific data
+update-set/*.local.xml

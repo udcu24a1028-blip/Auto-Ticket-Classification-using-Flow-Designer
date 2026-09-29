@@ -1,0 +1,8 @@
+[
+  { "short_description": "Wi-Fi not working in Room 204", "description": "Students cannot connect to the internet.", "expected": "wifi" },
+  { "short_description": "Projector shows no signal", "description": "HDMI cable connected but display is blank.", "expected": "projector" },
+  { "short_description": "Forgot my password", "description": "I am locked out of my account and need a reset.", "expected": "password" },
+  { "short_description": "Laptop very slow", "description": "My computer keeps freezing and takes forever to open files.", "expected": "slow_computer" },
+  { "short_description": "Smartboard display flickering", "description": "Lamp seems dim.", "expected": "projector" },
+  { "short_description": "Request for new library card", "description": "Need a card for the new term.", "expected": "general" }
+]
